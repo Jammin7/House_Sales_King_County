@@ -13,7 +13,7 @@ The dataset is loaded using Pandas from a web address.
 The data types of each column are displayed, and the dataset's structure is examined.
 
 
-##Module 2: Data Wrangling
+Module 2: Data Wrangling
 
 Columns "id" and "Unnamed: 0" are dropped as they are not needed for analysis.
 Missing values in the "bedrooms" and "bathrooms" columns are replaced with the mean values of their respective columns.
@@ -27,7 +27,7 @@ A regplot is used to determine the correlation between the "sqft_above" feature 
 The correlation between all features and the target variable "price" is calculated and displayed.
 
 
-#Module 4: Model Development
+Module 4: Model Development
 
 Linear regression models are fitted to predict house prices using the features "long" and "sqft_living".
 R-squared values are calculated to evaluate the models' performance.
